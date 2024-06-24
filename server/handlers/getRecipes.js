@@ -10,7 +10,7 @@ module.exports = async (req, res) => {
     const prep = {}
     const cook = {}
 
-    if (title) query.title = title
+    if (title) query.title = { $regex: new RegExp(title, 'i') }
     if (tags) query.tags = { $in: JSON.parse(decodeURI(req.query.tags)) }
     if (ingredients) query['ingredients.$.name'] = { $in: JSON.parse(decodeURI(req.query.ingredients)) }
 
