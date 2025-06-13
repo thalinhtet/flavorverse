@@ -18,7 +18,7 @@ To run the Flavorverse front-end on your local machine, follow these steps:
 1. **Clone the repository:**
 
     ```
-    git clone https://github.com/victor891263/flavorverse.git .
+    git clone https://github.com/thalinhtet/flavorverse.git .
     cd client
     ```
 
@@ -44,7 +44,7 @@ To run the Flavorverse front-end on your local machine, follow these steps:
     ng serve
     ```
 
-6. **Access Crowdly in your browser:**
+6. **Access Flavorverse in your browser:**
 
     Open your web browser and navigate to `http://localhost:4200`. Now you have the Flavorverse front-end running locally on your machine. The application will automatically reload if you change any of the source files. You can start making changes, adding new features, or contributing to the project.
 

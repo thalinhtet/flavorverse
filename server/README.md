@@ -60,7 +60,7 @@ mongodb://localhost/<database_name>
 ### 1. **Clone the repository:**
 
 ```
-git clone https://github.com/victor891263/flavorverse.git .
+git clone https://github.com/thalinhtet/flavorverse.git .
 cd server
 ```
 

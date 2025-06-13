@@ -13,6 +13,9 @@ export class HeaderComponent implements OnInit {
     get currentUser() {
         return getCurrentUser()
     }
+    get currentYear() {
+        return new Date().getFullYear()
+    }
 
     links = ['/login', '/join', '/recover', '/reset']
 

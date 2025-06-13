@@ -11,6 +11,9 @@ export class FooterComponent {
     get currentUser() {
         return getCurrentUser()
     }
+    get currentYear() {
+        return new Date().getFullYear()
+    }
 
     logout() {
         localStorage.removeItem('token')
