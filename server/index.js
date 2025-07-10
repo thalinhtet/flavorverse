@@ -55,4 +55,4 @@ app.use('/users', require('./routes/users'))
 app.use('/recipes', require('./routes/recipes'))
 app.use(require('./middleware/handleError'))
 
-app.listen(4000, () => console.log('listening'))
+app.listen(process.env.PORT || 4000, () => console.log('listening'))
