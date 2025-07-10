@@ -1,5 +1,3 @@
 export default function getApiUrl() {
-    return 'https://flavorverse-5uzf.onrender.com'
+    return 'https://flavorverse-d7gwh9hehdbmb4eb.uksouth-01.azurewebsites.net'
 }
-// http://localhost:4000
-// https://flavorverse-5uzf.onrender.com
